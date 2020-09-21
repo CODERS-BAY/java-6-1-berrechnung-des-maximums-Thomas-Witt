@@ -17,7 +17,7 @@ public class Maximum2 {
             moreNumbers[moreNumbers.length - 1] = scanner.nextInt();
             if (moreNumbers.length == 1) {
                 highestNumber = moreNumbers[0];
-            } else if (moreNumbers[moreNumbers.length - 1] > highestNumber && moreNumbers[moreNumbers.length - 1] > moreNumbers[moreNumbers.length - 2]) {
+            } else if (moreNumbers[moreNumbers.length - 1] > highestNumber) {
                 highestNumber = moreNumbers[moreNumbers.length - 1];
             }
             numbers = moreNumbers;
